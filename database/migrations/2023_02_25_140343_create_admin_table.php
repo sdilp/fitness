@@ -1,4 +1,3 @@
-//This is admin table migration file
 <?php
 
 use Illuminate\Database\Migrations\Migration;
