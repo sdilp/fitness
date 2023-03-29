@@ -1,1 +1,2 @@
 php artisan migrate:refresh
+git init
