@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/dashboard_img/apple-icon.png">
-  <link rel="icon" type="image/png" href="/assets/dashboard_img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/dashboard_img/apple-icon.png">
+  <link rel="icon" type="image/png" href="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/dashboard_img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
     Admin Dashboard
@@ -14,10 +14,10 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
-  <link href="/assets/dashboard_css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
+  <link href="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/dashboard_css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="/assets/demo/demo.css" rel="stylesheet" />
-  <link href="/assets/demo/demo.css" rel="stylesheet" />
+  <link href="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/demo/demo.css" rel="stylesheet" />
+  <link href="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/demo/demo.css" rel="stylesheet" />
   <script src="/js/app.js"></script>
   <script src="/js/bootstrap.js"></script>
   <link href="/css/app.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 <body class="dark-edition">
 
-<div class="sidebar" data-color="purple" data-background-color="black" data-image="/assets/dashboard_img/sidebar-2.jpg">
+<div class="sidebar" data-color="purple" data-background-color="black" data-image="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/dashboard_img/sidebar-2.jpg">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 

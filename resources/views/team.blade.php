@@ -44,7 +44,7 @@
             <!-- <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="/assets/img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/img/team-2.jpg" alt="">
                          <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -62,7 +62,7 @@
             <!-- <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="/assets/img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/img/team-3.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -80,7 +80,7 @@
             <!-- <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="/assets/img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/img/team-2.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -98,7 +98,7 @@
             <!-- <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="/assets/img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/img/team-3.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -116,7 +116,7 @@
             <!-- <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="/assets/img/team-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://mi-linux.wlv.ac.uk/~2013464/fitness/public/assets/img/team-1.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="#"><i class="fab fa-twitter"></i></a>
