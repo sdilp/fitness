@@ -9,8 +9,8 @@
         <div class="row py-5">
             <div class="col-12 text-center">
                 <h1 class="display-2 text-uppercase text-white mb-md-4">About Us</h1>
-                <a href="/" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                <a href="/about" class="btn btn-light py-md-3 px-md-5">About</a>
+                <a href="/~2013464/fitness/public/" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
+                <a href="/~2013464/fitness/public/about" class="btn btn-light py-md-3 px-md-5">About</a>
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="col-lg-12 col-md-6 text-center">
                 <!-- <h1 class="text-uppercase text-light mb-4">30% Discount For This Summer</h1> -->
-                <a href="/login" class="btn btn-primary py-3 px-5">Become A Member</a>
+                <a href="/~2013464/fitness/public/login" class="btn btn-primary py-3 px-5">Become A Member</a>
             </div>
         </div>
     </div>

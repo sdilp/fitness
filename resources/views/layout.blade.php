@@ -72,7 +72,7 @@
                     </div> -->
                 </div>
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5">
-                    <a href="/" class="navbar-brand d-block d-lg-none">
+                    <a href="/~2013464/fitness/public/" class="navbar-brand d-block d-lg-none">
                         <h1 class="m-0 display-4 text-primary text-uppercase">Gymster</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -81,9 +81,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.php" class="nav-item nav-link active">Home</a>
-                            <a href="/about" class="nav-item nav-link">About</a>
-                            <a href="/viewschedulesindex" class="nav-item nav-link">Classes</a>
-                            <a href="/viewTrainerindex" class="nav-item nav-link">Trainers</a>
+                            <a href="/~2013464/fitness/public/about" class="nav-item nav-link">About</a>
+                            <a href="/~2013464/fitness/public/viewschedulesindex" class="nav-item nav-link">Classes</a>
+                            <a href="/~2013464/fitness/public/viewTrainerindex" class="nav-item nav-link">Trainers</a>
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -92,9 +92,9 @@
                                     <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                                 </div>
                             </div> -->
-                            <a href="/contact" class="nav-item nav-link">Contact</a>
+                            <a href="/~2013464/fitness/public/contact" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a href="/login" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Join Us</a>
+                        <a href="/~2013464/fitness/public/login" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Join Us</a>
                     </div>
                 </nav>
             </div>
@@ -135,21 +135,21 @@
                     <!-- <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                         <h4 class="text-uppercase text-light mb-4">Quick Links</h4>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-secondary mb-2" href="/"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                            <a class="text-secondary mb-2" href="/about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                            <a class="text-secondary mb-2" href="/class"><i class="bi bi-arrow-right text-primary me-2"></i>Class Schedule</a>
-                            <a class="text-secondary mb-2" href="/team"><i class="bi bi-arrow-right text-primary me-2"></i>Our Trainers</a>
-                            <a class="text-secondary" href="/contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/class"><i class="bi bi-arrow-right text-primary me-2"></i>Class Schedule</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/team"><i class="bi bi-arrow-right text-primary me-2"></i>Our Trainers</a>
+                            <a class="text-secondary" href="/~2013464/fitness/public/contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                         </div>
                     </div> -->
                     <!-- <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                         <h4 class="text-uppercase text-light mb-4">Popular Links</h4>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-secondary mb-2" href="/"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                            <a class="text-secondary mb-2" href="/about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                            <a class="text-secondary mb-2" href="/class"><i class="bi bi-arrow-right text-primary me-2"></i>Class Schedule</a>
-                            <a class="text-secondary mb-2" href="/team"><i class="bi bi-arrow-right text-primary me-2"></i>Our Trainers</a>
-                            <a class="text-secondary" href="/contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/class"><i class="bi bi-arrow-right text-primary me-2"></i>Class Schedule</a>
+                            <a class="text-secondary mb-2" href="/~2013464/fitness/public/team"><i class="bi bi-arrow-right text-primary me-2"></i>Our Trainers</a>
+                            <a class="text-secondary" href="/~2013464/fitness/public/contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                         </div>
                     </div> -->
                 </div>
@@ -173,7 +173,7 @@
         <div class="row gx-5">
             <div class="col-lg-8">
                 <div class="py-lg-4 text-center">
-                    <p class="text-secondary mb-0">&copy; <a class="text-light fw-bold" href="/">GYMSTER</a>. All Rights Reserved.</p>
+                    <p class="text-secondary mb-0">&copy; <a class="text-light fw-bold" href="/~2013464/fitness/public/">GYMSTER</a>. All Rights Reserved.</p>
                 </div>
             </div>
             <div class="col-lg-4">

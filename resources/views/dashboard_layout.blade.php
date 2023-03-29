@@ -43,19 +43,19 @@
             </a>
           </li>
           <!-- <li class="nav-item ">
-            <a class="nav-link" href="/trainer">
+            <a class="nav-link"  href="/~2013464/fitness/public/trainer">
               <i class="material-icons">person</i>
               <p>Add Trainer</p>
             </a>
           </li> -->
           <li class="nav-item ">
-            <a class="nav-link" href="/viewTraineruser">
+            <a class="nav-link"  href="/~2013464/fitness/public/viewTraineruser">
               <i class="material-icons">content_paste</i>
               <p>Trainers List</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/viewschedulesuser">
+            <a class="nav-link"  href="/~2013464/fitness/public/viewschedulesuser">
               <i class="material-icons">content_paste</i>
               <p>Schedules List</p>
             </a>

@@ -39,37 +39,37 @@
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active  ">
-            <a class="nav-link" href="/viewDashboard">
+            <a class="nav-link" href="/~2013464/fitness/public/viewDashboard">
               <i class="material-icons">dashboard</i>
               <p>Admin Dashboard</p>
             </a>
           </li>
           <!-- <li class="nav-item ">
-            <a class="nav-link" href="/admin_profile_view">
+            <a class="nav-link" href="/~2013464/fitness/public/admin_profile_view">
               <i class="material-icons">person</i>
               <p>Admin Profile</p>
             </a>
           </li> -->
           <li class="nav-item ">
-            <a class="nav-link" href="/viewTrainer">
+            <a class="nav-link" href="/~2013464/fitness/public/viewTrainer">
               <i class="material-icons">content_paste</i>
               <p>Trainer List</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/trainer">
+            <a class="nav-link" href="/~2013464/fitness/public/trainer">
               <i class="material-icons">person</i>
               <p>Add Trainer</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/schedules">
+            <a class="nav-link" href="/~2013464/fitness/public/schedules">
               <i class="material-icons">content_paste</i>
               <p>Add Schedules</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/viewschedules">
+            <a class="nav-link" href="/~2013464/fitness/public/viewschedules">
               <i class="material-icons">content_paste</i>
               <p>Classes Schedules List</p>
             </a>
