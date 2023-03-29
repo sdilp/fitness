@@ -11,7 +11,7 @@
 	
 	<link rel="stylesheet" href="/assets/css/login_style.css">
 
-	</head>
+	</head>  
 	<body>
 	<section class="ftco-section">
 		<div class="container">
