@@ -52,8 +52,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
-
+    // 'url' => env('APP_URL', 'http://localhost'),
+    'url' => 'https://mi-linux.wlv.ac.uk/~2013464/fitness/public',
     'asset_url' => env('ASSET_URL', null),
 
     /*
