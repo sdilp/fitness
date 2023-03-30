@@ -60,7 +60,7 @@
 									</p>
 								</div> -->
 			      	</div>
-							<form action="/login_user" method="POST" class="signin-form">
+							<form action="/~2013464/fitness/public/login_user" method="POST" class="signin-form">
 								@csrf
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Email</label>
