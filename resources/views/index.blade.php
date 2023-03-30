@@ -118,6 +118,67 @@
     <!-- Programe Start -->
 
 
+
+ <!-- Class Timetable Start -->
+ <div class="container-fluid p-5">
+    <div class="mb-5 text-center">
+      <h5 class="text-primary text-uppercase">Exercise Categories</h5>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-12 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Abs</h5>
+            <div class="  col-sm-12 col-lg-12 col-md-12 row" id="exercises-10"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-12 col-sm-12">
+          <div class="card-body">
+            <h5 class="card-title">Arms</h5>
+            <div  class="  col-sm-12 col-lg-12 col-md-12 row"  id="exercises-8"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-12 col-sm-12">
+          <div class="card-body">
+            <h5 class="card-title">Back</h5>
+            <div class="  col-sm-12 col-lg-12 col-md-12 row" id="exercises-12"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-12 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Calves</h5>
+            <div  class="  col-sm-12 col-lg-12 col-md-12 row"  id="exercises-14"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-12 col-sm-12">
+          <div class="card-body">
+            <h5 class="card-title">Chest</h5>
+            <div  class="  col-sm-12 col-lg-12 col-md-12 row"  id="exercises-11"></div>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-12 col-sm-12">
+          <div class="card-body">
+            <h5 class="card-title">Legs</h5>
+            <div   class="  col-sm-12 col-lg-12 col-md-12 row"  id="exercises-9"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-12 col-sm-12">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Shoulders</h5>
+            <div  class="  col-sm-12 col-lg-12 col-md-12 row"  id="exercises-13"></div>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
     <!-- Class Timetable Start -->
     <div class="container-fluid p-5">
         <div class="mb-5 text-center">
@@ -801,3 +862,152 @@
     </div> -->
     <!-- Blog End -->
 @stop()
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+ ></script>
+<script>
+  
+  const categoryNames = {
+  10: 'Abs',
+  8: 'Arms',
+  12: 'Back',
+  14: 'Calves',
+  11: 'Chest',
+  9: 'Legs',
+  13: 'Shoulders'
+};
+
+// Function to get exercises for a specific category
+async function getExercisesForCategory(categoryId) {
+  try {
+    const response = await fetch(`https://wger.de/api/v2/exercise/?category=${categoryId}&limit=10`);
+    const data = await response.json();
+    return data.results.filter(exercise => exercise.images.length > 0);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// function displayExercisesForCategory(categoryId) {
+//   fetch(`https://wger.de/api/v2/exercise/?language=2&category=${categoryId}`)
+//     .then(response => response.json())
+//     .then(exerciseData => {
+//       console.log(exerciseData);
+//       const exercises = exerciseData.results || []; // add a check for undefined
+//       console.log(exercises);
+
+//       const exerciseCards = exercises.map(exercise => {
+
+//         console.log(exercise);
+//         const exerciseCard = $(`
+//         <div class="col-md-4 col-lg-4 mb-3">
+//           <div class="card h-100">
+//             <img src="" class="images${exercise.id}" alt="${exercise.name}">
+//             <div class="card-body">
+//               <h5 class="card-title">${exercise.name}</h5>
+//               <p class="card-text">${exercise.description.replace(/<\/?[^>]+(>|$)/g, "")}</p>
+//               <small>${exercise.equipment.map(equipment => equipment.name).join(", ")}</small>
+//             </div>
+//           </div>
+//         </div>
+//         `);
+
+//         return fetch(`https://wger.de/api/v2/exerciseimage/?exercise=${exercise.id}`)
+//           .then(response => response.json())
+//           .then(imageData => {
+//             if (imageData.results.length > 0) {
+//               const imageUrl = imageData.results[0].image;
+//               exerciseCard.find(`.images${exercise.id}`).attr("src", imageUrl);
+//             }
+//             return exerciseCard; // Return the exercise card after updating its image
+//           })
+//           .catch(error => console.error(error));
+//       });
+
+//       Promise.all(exerciseCards)
+//         .then(cards => {
+//           console.log("exerciseCards", cards);
+//           $(`#exercises-${categoryId}`).append(cards);
+//         })
+//         .catch(error => console.error(error));
+//     })
+//     .catch(error => console.error(error));
+// }
+
+async function displayExercisesForCategory(categoryId) {
+  try {
+    const response = await fetch(`https://wger.de/api/v2/exercise/?language=2&category=${categoryId}`);
+    const exerciseData = await response.json();
+    console.log(exerciseData);
+    const exercises = exerciseData.results || []; // add a check for undefined
+    console.log(exercises);
+
+    const exerciseCards = [];
+
+    for (const exercise of exercises) {
+      const exerciseCard = $(`
+        <div class="col-md-4 col-lg-4 mb-3">
+          <div class="card h-100">
+            <img src="" class="images${exercise.id}" alt="${exercise.name}">
+            <div class="card-body">
+              <h5 class="card-title">${exercise.name}</h5>
+              <p class="card-text">${exercise.description.replace(/<\/?[^>]+(>|$)/g, "")}</p>
+              <small>${exercise.equipment.map(equipment => equipment.name).join(", ")}</small>
+            </div>
+          </div>
+        </div>
+      `);
+
+      try {
+        const response = await fetch(`https://wger.de/api/v2/exerciseimage/?exercise=${exercise.id}`);
+        const imageData = await response.json();
+        const images = imageData.results || [];
+        if (images.length > 0) {
+          const imageUrl = images[Math.floor(Math.random() * images.length)].image;
+          exerciseCard.find(`.images${exercise.id}`).attr("src", imageUrl);
+        } else {
+          const defaultImage = "https://via.placeholder.com/150x150.png?text=No+Image+Available";
+          exerciseCard.find(`.images${exercise.id}`).attr("src", defaultImage);
+        }
+        if (images.length > 4) {
+          exerciseCard.find(`.images${exercise.id}`).attr("height", "200px");
+          exerciseCard.find(`.images${exercise.id}`).attr("width", "200px");
+          exerciseCard.find(`.images${exercise.id}`).css("object-fit", "cover");
+          for (let i = 1; i < 5; i++) {
+            const img = $("<img>").attr("src", images[i].image).attr("height", "50px").attr("width", "50px").css("margin-right", "5px");
+            exerciseCard.find(".card-body").append(img);
+          }
+        }
+      } catch (error) {
+        const defaultImage = "https://via.placeholder.com/150x150.png?text=No+Image+Available";
+        exerciseCard.find(`.images${exercise.id}`).attr("src", defaultImage);
+        console.error(error);
+      }
+
+      exerciseCards.push(exerciseCard);
+    }
+
+    console.log("exerciseCards", exerciseCards);
+    $(`#exercises-${categoryId}`).append(exerciseCards);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+
+
+// Loop through the categoryNames object and display exercises for each category
+Object.keys(categoryNames).forEach(categoryId => {
+  const categoryName = categoryNames[categoryId];
+  const categoryHeader = $(`<h3 class="mt-5">${categoryName}</h3>`);
+  const categoryDiv = $(`<div id="${categoryName}" class="list-group"></div>`);
+  
+  $("#exercises").append(categoryHeader);
+  $("#exercises").append(categoryDiv);
+  
+  displayExercisesForCategory(categoryId);
+});
+
+ 
+ 
+ 
+</script>
