@@ -18,14 +18,12 @@ class AdminController extends Controller
             ->where('password', $password)
             ->first();
         if($admin){
-            //session_start();
             $user = DB::table('users')->get();
             $_SESSION['email'] = $email;
             return view('admin_dashb',['user'=>$user]);
         }
         else{
-            return back()->with('error','Wrong Credentials!');
-            
+            return back()->with('error','Wrong Credentials!'); 
         }
     }
 

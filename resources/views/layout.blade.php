@@ -81,9 +81,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.php" class="nav-item nav-link active">Home</a>
-                            <a href="/~2013464/fitness/public/about" class="nav-item nav-link">About</a>
-                            <a href="/~2013464/fitness/public/viewschedulesindex" class="nav-item nav-link">Classes</a>
-                            <a href="/~2013464/fitness/public/viewTrainerindex" class="nav-item nav-link">Trainers</a>
+                            <a href="/about" class="nav-item nav-link">About</a>
+                            <a href="/viewschedulesindex" class="nav-item nav-link">Classes</a>
+                            <a href="/viewTrainerindex" class="nav-item nav-link">Trainers</a>
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -92,9 +92,9 @@
                                     <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                                 </div>
                             </div> -->
-                            <a href="/~2013464/fitness/public/contact" class="nav-item nav-link">Contact</a>
+                            <a href="/contact" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a href="/~2013464/fitness/public/login" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Join Us</a>
+                        <a href="/login" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Join Us</a>
                     </div>
                 </nav>
             </div>

@@ -49,13 +49,13 @@
             </a>
           </li> -->
           <li class="nav-item ">
-            <a class="nav-link"  href="/~2013464/fitness/public/viewTraineruser">
+            <a class="nav-link"  href="/viewTraineruser">
               <i class="material-icons">content_paste</i>
               <p>Trainers List</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link"  href="/~2013464/fitness/public/viewschedulesuser">
+            <a class="nav-link"  href="/viewschedulesuser">
               <i class="material-icons">content_paste</i>
               <p>Schedules List</p>
             </a>

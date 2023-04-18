@@ -6,8 +6,8 @@
         <div class="row py-5">
             <div class="col-12 text-center">
                 <h1 class="display-2 text-uppercase text-white mb-md-4">Contact</h1>
-                <a href="/~2013464/fitness/public/" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                <a href="/~2013464/fitness/public/contact" class="btn btn-light py-md-3 px-md-5">Contact</a>
+                <a href="/" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
+                <a href="/contact" class="btn btn-light py-md-3 px-md-5">Contact</a>
             </div>
         </div>
     </div>

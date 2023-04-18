@@ -61,7 +61,7 @@
                   </p>
                 </a>
               </li>
-              <li class="nav-item"><a href="/~2013464/fitness/public/admin_logout">Logout</a></li>
+              <li class="nav-item"><a href="/admin_logout">Logout</a></li>
             </ul>
           </div>
         </div>

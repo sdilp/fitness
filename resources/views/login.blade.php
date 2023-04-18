@@ -60,7 +60,7 @@
 									</p>
 								</div> -->
 			      	</div>
-							<form action="/~2013464/fitness/public/login_user" method="POST" class="signin-form">
+							<form action="/login_user" method="POST" class="signin-form">
 								@csrf
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Email</label>
@@ -85,9 +85,9 @@
 									</div> -->
 		            </div>
 		          </form>
-		          <p class="text-center">Not a member? <a data-toggle="tab" href="/~2013464/fitness/public/register">User Sign Up</a></p>
-				  <p class="text-center"><a data-toggle="tab" href="/~2013464/fitness/public/admin_login">Admin Login</a></p>
-				  <p class="text-center"><a data-toggle="tab" href="/~2013464/fitness/public/">Back To Home</a></p>
+		          <p class="text-center">Not a member? <a data-toggle="tab" href="/register">User Sign Up</a></p>
+				  <p class="text-center"><a data-toggle="tab" href="/admin_login">Admin Login</a></p>
+				  <p class="text-center"><a data-toggle="tab" href="/">Back To Home</a></p>
 		        </div>
 		      </div>
 				</div>

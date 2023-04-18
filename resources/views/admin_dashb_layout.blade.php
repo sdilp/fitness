@@ -39,7 +39,7 @@
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active  ">
-            <a class="nav-link" href="/~2013464/fitness/public/viewDashboard">
+            <a class="nav-link" href="/viewDashboard">
               <i class="material-icons">dashboard</i>
               <p>Admin Dashboard</p>
             </a>

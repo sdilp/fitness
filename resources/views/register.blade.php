@@ -74,9 +74,9 @@
 									</div> -->
 		            </div>
 		          </form>
-		          <p class="text-center">Already member? <a data-toggle="tab" href="/~2013464/fitness/public/login">User Login</a></p>
-				  <p class="text-center"><a data-toggle="tab" href="/~2013464/fitness/public/admin_login">Admin Login</a></p>
-				  <p class="text-center"><a data-toggle="tab" href="/~2013464/fitness/public/">Back To Home</a></p>
+		          <p class="text-center">Already member? <a data-toggle="tab" href="/login">User Login</a></p>
+				  <p class="text-center"><a data-toggle="tab" href="/admin_login">Admin Login</a></p>
+				  <p class="text-center"><a data-toggle="tab" href="/">Back To Home</a></p>
 		        </div>
 		      </div>
 				</div>

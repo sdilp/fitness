@@ -38,7 +38,7 @@
 									</p>
 								</div> -->
 			      	</div>
-							<form action="/~2013464/fitness/public/login_admin" method="POST" class="signin-form">
+							<form action="/login_admin" method="POST" class="signin-form">
 							@csrf
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="email">Email</label>
@@ -63,8 +63,8 @@
 									</div> -->
 		            </div>
 		          </form>
-		          <p class="text-center">Not Admin <a data-toggle="tab" href="/~2013464/fitness/public/login">Login User</a></p>
-				  <p class="text-center"><a data-toggle="tab" href="/~2013464/fitness/public/">Back To Home</a></p>
+		          <p class="text-center">Not Admin <a data-toggle="tab" href="/login">Login User</a></p>
+				  <p class="text-center"><a data-toggle="tab" href="/">Back To Home</a></p>
 		        </div>
 		      </div>
 				</div>
